@@ -10,6 +10,7 @@ print(message.title())
 # 在字符串中使用变量
 first_name = "ada"
 last_name = "lovelace"
+# 使用f字符串, f字符串是一种在字符串中嵌入变量值的方式, f是format的缩写
 full_name = f"{first_name} {last_name} "
 print(f"Hello, {full_name.title()}, are you ready to learn some python today?")
 
