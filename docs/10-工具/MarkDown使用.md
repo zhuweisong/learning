@@ -5,6 +5,7 @@
 
 # 优势
 
+- GitHub等各主流厂支持
 - 纯文本可移植
 - 语法简单
 - 专注于文字
@@ -19,4 +20,5 @@
 - Markdown All in One MD: 增强多合一插件.
 - Markdown Preview Enhanced: 预览增强
 - Markdown Image: MD 快捷粘贴引用本地图片.
-- markdownlint:
+- markdownlint: 语法检查
+
