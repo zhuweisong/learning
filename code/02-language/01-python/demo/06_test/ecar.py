@@ -11,6 +11,15 @@ class ECar :
         self.odometer_reading = 0
         self.km = km
 
-    def show_battry(self):
+    def show_battry(self, new_km: str = 'new'):
+        if new_km == 'new':
+            return self.km
+        else:
+            self.km = self.km * 10
         return self.km
+
+
+my_ecar = ECar("make", "model", "year", 100)
+result = my_ecar.show_battry(100)
+print(result)
 

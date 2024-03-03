@@ -8,7 +8,7 @@ def test_ecar():
 
 def test_show_battry():
     my_ecar = ecar.ECar("make", "model", "year", 100)
-    assert my_ecar.show_battry() == 100
+    assert my_ecar.show_battry(10) == 100
 
 # Run the test case
 # 运行测试用例, 通过命令行执行
