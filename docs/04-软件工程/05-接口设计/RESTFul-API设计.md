@@ -12,7 +12,7 @@
 
 ## REST-API是什么?
 
-REST API 是可单独寻址的“资源”（API 中的“名词”）的“集合”。资源通过资源名称被引用，并通过一组“方法”（也称为“动词）进行控制。包括 List、Get、Create、Update、Delete和部分“自定义方法”。
+（Representational State Transfer）REST API 是可单独寻址的“资源”（API 中的“名词”）的“集合”。资源通过资源名称被引用，并通过一组“方法”（也称为“动词）进行控制。包括 List、Get、Create、Update、Delete和部分“自定义方法”。
 
 ### 资源
 
@@ -20,6 +20,11 @@ REST API 是可单独寻址的“资源”（API 中的“名词”）的“集�
 
 - 一个集合包含相同类型的资源列表。 例如，一个用户拥有一组联系人。
 - 资源具有一些状态和零个或多个子资源。 每个子资源可以是一个简单资源或一个集合资源。
+
+#### 集合资源
+
+#### 简单资源
+
 
 ### 方法
 
@@ -43,4 +48,12 @@ REST API 是可单独寻址的“资源”（API 中的“名词”）的“集�
 - 基础方法
 - 注意幂等原则
 
-## 接口对应方法
+## 标准方法
+
+| 标准方法 | HTTP映射 | HTTP请求正文 | HTTP响应正文 |
+|  :--:   |  :--:   |    :--:    |   :--:   |
+| list   | GET **collection** URL | 不适用 | 资源*列表 |
+| get    | GET **resource** URL | 不适用 | 资源 |
+| create | POST **collection** URL | 资源 | 资源 |
+| update | PUT **collection** URL | 资源 | 资源 |
+| delete | DELETE **resource** URL | 不适用 | 资源 |
