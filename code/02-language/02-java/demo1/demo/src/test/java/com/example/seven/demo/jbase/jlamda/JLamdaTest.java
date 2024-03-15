@@ -1,4 +1,4 @@
-package com.example.seven.jbase.jlamda;
+package com.example.seven.demo.jbase.jlamda;
 
 import org.springframework.boot.test.context.SpringBootTest;
 

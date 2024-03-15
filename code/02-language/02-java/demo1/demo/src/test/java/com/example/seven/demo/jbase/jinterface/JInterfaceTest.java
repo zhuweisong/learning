@@ -1,7 +1,9 @@
-package com.example.seven.jbase.jinterface;
+package com.example.seven.demo.jbase.jinterface;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+
+import com.example.seven.jbase.jinterface.Student;
 
 
 @SpringBootTest(classes = JInterfaceTest.class)

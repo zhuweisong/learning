@@ -1,4 +1,4 @@
-package com.example.seven.jbase.jexception;
+package com.example.seven.demo.jbase.jexception;
 
 import java.io.PrintWriter;
 import java.io.StringWriter;
