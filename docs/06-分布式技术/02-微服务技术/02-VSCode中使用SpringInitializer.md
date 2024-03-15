@@ -53,4 +53,3 @@
 - maven的包依赖文件Pom.xml
 
 ![生成的代码](../../images/SpringInitializer/image_code.png)
-
